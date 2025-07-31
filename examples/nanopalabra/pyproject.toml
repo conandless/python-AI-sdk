@@ -1,0 +1,40 @@
+[project]
+name = "nano-speech-translation"
+version = "0.1.0"
+description = "Minimal Python client for real-time speech translation"
+readme = "README.md"
+authors = [
+    { name = "Example Developer", email = "developer@example.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "websockets>=13,<16",
+    "aiohttp>=3.9,<4",
+    "sounddevice>=0.5.1,<1",
+    "numpy>=1.24",
+]
+license = "MIT"
+keywords = ["speech-translation", "real-time", "minimal"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Communications",
+]
+
+[project.scripts]
+nanopalabra = "nanopalabra:main"
+
+[project.urls]
+Homepage = "https://example.com"
+Repository = "https://github.com/example/speech-translation-sdk/tree/main/examples/nanopalabra"
+Documentation = "https://docs.example.com/docs/quick-start"
+Issues = "https://github.com/example/speech-translation-sdk/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
