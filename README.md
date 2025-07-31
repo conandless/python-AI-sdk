@@ -1,14 +1,5 @@
 # <a href="https://example.com"><img src="https://via.placeholder.com/32x32/007acc/ffffff?text=AI" alt="AI SDK" align="center"></a> AI Speech Translation SDK
 
-[![Tests](https://github.com/example/speech-translation-sdk/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/example/speech-translation-sdk/actions/workflows/test.yml)
-[![Release](https://github.com/example/speech-translation-sdk/actions/workflows/release.yml/badge.svg)](https://github.com/example/speech-translation-sdk/actions/workflows/release.yml)
-[![Python Versions](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue)](https://github.com/example/speech-translation-sdk)
-[![PyPI version](https://img.shields.io/pypi/v/speech-translation-sdk.svg?color=blue)](https://pypi.org/project/speech-translation-sdk/)
-[![Downloads](https://pepy.tech/badge/speech-translation-sdk)](https://pepy.tech/projects/speech-translation-sdk)
-[![Docker](https://img.shields.io/badge/docker-ghcr.io-blue?logo=docker)](https://github.com/example/speech-translation-sdk/pkgs/container/speech-translation-sdk)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-[//]: # ([![codecov]&#40;https://codecov.io/gh/example/speech-translation-sdk/graph/badge.svg?token=EXAMPLE&#41;]&#40;https://codecov.io/gh/example/speech-translation-sdk&#41;)
 
 🌍 **Python SDK for real-time speech-to-speech translation API**  
 🚀 Break down language barriers and enable seamless communication across 25+ languages
@@ -445,16 +436,5 @@ from speech_translation_sdk import (
 - 🐍 Python 3.11+
 - 🔑 API credentials (get them at [example.com](https://example.com))
 
-## Support 🤝
-
-- 📚 Documentation: [https://docs.example.com](https://docs.example.com)
-- 🐛 Issues: [GitHub Issues](https://github.com/example/speech-translation-sdk/issues)
-- 📧 Email: support@example.com
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 © Example Corp, 2025 | 🌍 Breaking down language barriers with AI 🚀
